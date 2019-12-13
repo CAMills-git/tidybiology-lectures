@@ -55,9 +55,9 @@ str_count(mito_protein$sequence, "K")
 ```
 
 #Exercise 1
-Use str_count to determine how many instances of a lysine next to a cysteine is
+Use str_count to determine how many instances of a lysine next to an arginine is
 ```{r}
-str_count(mito_protein$sequence, "KR")
+
 ```
 
 Let's get slightly more complicated. Let's look for patterns within this sequence. For this example, let's look for a specific protein motif. In this case I am going to search for proteins with a HRM, or heme regulatory motif. This motif consists of (R or K or N)CP(K or hydrophobic)(L or M).
